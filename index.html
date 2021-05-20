@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <html>
+        <div id="uwu"> 
+        <head>
+            <meta charset="utf-8">
+            <title>Pagina de Avicii</title>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="anime.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+            <!--Varios Style para personalisar el fondo, todos los coleres de letra y otras cosas-->
+            <style>
+                head{
+                    background-color:rgba(0, 0, 0, 0.445);
+                }
+                #uwu{
+                    width: 80%; 
+                    margin: 0 auto;
+                    background-color:rgba(0, 0, 0, 0.445);   
+                    border: 2px solid rgb(255, 255, 255);
+                } 
+                .black{
+                    color:rgb(255, 255, 255);
+                    height: 50px;
+                }
+                body{
+                    background-color:rgba(77, 77, 77, 0.445);
+                    background-attachment:scroll;
+                    }
+                #ewe{
+                    background-color:rgba(0, 0, 0, 0.445);
+                    
+                    }
+                    #iwi{
+                    width: 50%;
+                    height: 300px;
+                    overflow-y: auto;
+                    overflow-x: auto;
+                    margin: left;
+                    border: 2px solid rgb(255, 255, 255);
+                    margin: 15px;
+                    }
+                #puto{
+                    color:rgba(0, 0, 0, 0);
+                    text-shadow: -2px -2px 0px rgba(0, 0, 0, 0);
+                    }
+                h1, h2{
+                    background-color:rgb(85, 85, 85); 
+                    text-align :center;
+                    text-shadow: -2px -2px 0px rgba(0, 0, 0);
+                    font-size: 30px;
+                    line-height: 1.5em;
+                    font-family: 'Monoton';
+                    font-style:italic;
+                    border-top: 2px solid rgb(255, 255, 255);
+                    border:2px solid rgb(255, 255, 255) ;
+                    }
+                body{
+                    background: url("https://wallpaperstock.net/blanco-y-negro-de-humo-wallpapers_21783_1680x1050.jpg");
+                    }
+                p{
+                    text-align :center;
+                    text-shadow: -2px -2px 0px rgb(0, 0, 0);
+                    font-style: italic;
+                    line-height: 1em;
+                    font-weight: bold;
+                    }
+                li{
+                    text-shadow: -2px -2px 0px rgb(0, 0, 0);
+                    font-family: Georgia, Times, 'Times New Roman', serif;
+                    }
+                ul, ol{
+                    }
+                table {
+                    width: 40%;
+                    border: 3px solid rgb(255, 255, 255);
+                    color:rgb(255, 255, 255) 
+                    }
+                th, td {
+                    width: %;
+                    text-align: left;
+                    vertical-align: top;
+                    border: 1px solid #100;
+                    border-collapse: collapse;
+                    padding: 0.3em;
+                    caption-side: bottom;
+                    border-color:white;
+                    text-shadow: -2px -2px 0px rgb(0, 0, 0);
+                    font-family: arial; 
+                    }
+                caption {
+                    padding: 0.3em;
+                    color: rgba(128, 128, 128, 0);
+                    background: rgba(126, 126, 126, 0);
+                    }
+                th {
+                    background: rgba(128, 128, 128, 0);
+                    font-family: arial; 
+                    }
+                    .botones{
+                    font-weight: bold;
+                    color:rgb(255, 255, 255);
+                    border-color:white;
+                    background-color:rgba(0, 0, 0, 0)  
+                    }
+                    img, button {
+                    display:block;
+                    margin:auto;
+                    }
+                    button {
+                    margin:center;
+                    display:block;
+                    }
+                    .imagenes{
+                    width: 500px;
+                    border: 6px ridge rgb(255, 255, 255);
+                    }
+                    #muerte-img{
+                    position: absolute;
+                    top: 136.5em;
+                    right: 11em;
+                    width: 500px;
+                    border: 6px ridge rgb(255, 255, 255);
+                    }
+                    spam {
+                    font-family: 'Pacifico', cursive;
+                    font-weight: normal;
+                    }
+                    a:link {
+                    color: rgb(255, 255, 255);
+                    }
+                    table .black{
+                    font-family: 'Pacifico', cursive;
+                    }
+                    a:visited, a:active {
+                    color: rgb(10, 221, 175, 0.562);
+                    }
+                    a:hover { 
+                    background-color: rgba(219, 0, 219, 0.486);
+                    }  
+                    a:focus {
+                    background-color: rgba(255, 187, 0, 0.568);
+                    } 
+            </style>
+        </head>
+            <h1 class="black"> <strong>Avicii</strong></h1>
+        <body>
+            <seccion id="ewe">
+                <a href="https://es.wikipedia.org/wiki/Avicii"><img class="imagenes" src="https://as.com/tikitakas/imagenes/2018/12/19/portada/1545251700_264293_1545252052_noticia_normal.jpg" alt="imagen de Avicii" ></a>
+                <h2 class="black"> <strong><em>Indice</em></strong></h1>
+                <ul>
+                    <!--Indice que lleva a cada partte de la pagina-->
+                    <li class="black"><a href="#principio"><em><strong>Principio de su historia</strong></em></a></li>
+                    <li class="black"><a href="#albunes"><em><strong>Lista de albunes</strong></em></a></li>
+                    <li class="black"><a href="#top7"><em><strong>Top 7 mejores canciones</strong></em></a></li>
+                    <li class="black"><a href="#muerte"><em><strong>Muerte</strong></em></a></li>
+                </ul>
+                <h2 class="black" id="principio"> <strong><em>Principio de su vida</em></strong></h1>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button class="botones">UwU</button></a>
+                <!--Texto-->
+                <p class="black">Tim Berling, tambien llamado artisticamente como <strong>Avicii</strong> fue un DJ y compositor sueco de musica electronica, especialisado en programacion de audio, remezcla y produccion<br> de discos. Nacio en estocolmo y era el pequeño de cuatro hermanos, y empezo a jugar con musica en su habitacion a los ocho años en su habitacion inspirado por su<br> hermano mayor que era DJ. </p>
+                <p class="black">Tim empezo a escribir musica oficialmente a los 16 años, publicandolo en paginas de musica electronica de internet, pero no fue hasta 2011 que finalmente alcanso la fama con<br>  su censillo <em>Levels</em>.</p>
+                <p class="black">Tim posteriormente fue miembro de foros en los que refino su talento y mostro su estilo distintivo de deep house. Tim explico una vez que su nombre Avicii significa el nivel<br> mas bajo del infierno budista (vea Avīci) y que no uso su nombre real por que ya habia sido utilisado en Myspace por alguien mas.
+                <p class="black"><strong>Avicii</strong> logro tanta fama que llego a hacer colaboraciones con artistas reconocido como <strong>David Getta</strong>, <strong>Bon Jovi</strong>, <strong>Billie Joe Amstrong</strong> y hasta <strong>Tim Martin</strong>. Logro<br> ganar tambien un Grammy en 2014 a artista del año, tambien gano muchos otros pero el ultimo que gano fue un Gramy a cancion del año en el <br>2020 pero lastimosamente no estaba vivo para recibirlo.
+                <p class="black">Tambien se enbarco en un par de giras mundiales, la primera fue en 2010 en la que viajo por norte america y varias ciudades de Europa,<br> posterirormente en 2013 vino a Hispano america de gira y estuvo en Argentina, Chile, Brasil y hasta <strong>Colombia</strong>.</p>
+                <h2 class="black" id="albunes"><em><strong>Lista de albunes</strong></em></h1>
+                <p class="black"> A lo largo de su carrera Avicii hizo muchos remixes de cancioners y saco varios albunes, esta es la lista de sus albunes ordenados cronologicamente:</p>
+                <table  style="margin:0 auto"; >
+                    <thead >
+                        <tr>
+                            <th class="black">Albunes</th>
+                            <th class="black">Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td >Avicii the singles</td>
+                            <td >2011</td>
+                        </tr>
+                        <tr>
+                            <td>True
+                            <td>2013</td>
+                        </tr>
+                        <tr>
+                            <td>The days/Night steps</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>Pure</td>
+                            <td>2015</td>
+                        </tr>
+                        <tr>
+                            <td>Stories</td>
+                            <td> 2015</td>
+                        </tr>
+                        <tr>
+                            <td>AVĪCI (01) </td>
+                            <td> 2017</td>
+                        </tr>
+                        <tr>
+                            <td>Tim (post morten)</td>
+                            <td> 2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 class="black" id="top7"><em>Top 7 mejores canciones</em></h1>
+                <ol reversed>
+                    <!--Lista en reversa-->
+                    <li class="black"><a href="https://www.youtube.com/watch?v=ip4Q1pbrYDg"><strong>Broken arrows</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=CWx4i-TUdWo"><strong>Adicted to you</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=ALFBgVcU0i8"><strong>You make me</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=iR1sAex__VA"><strong>Waiting for love</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=S1-BzgPjog8"><strong>Hey brother</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=2NiyrtYegso"><strong>Wake me up</strong></a></li>
+                    <li class="black"><a href="https://www.youtube.com/watch?v=W4C-NEWrnSQ"><strong>The nights</strong></a></li>
+                </ol reversed>
+                <h2 class="black" id="muerte"><em>Muerte</em></h1>
+                <div id="iwi">
+                <p class="black"><strong>Avicci</strong> murio el 20 de Abril de 2018 a sus 28 años por desangramiento, pero su cuerpo no fue encontrado hasta el dia siguiente por la policia, segun las pruebas sumuerte fue por daño auto inflingido con una botella de rota de vino al intentar suicidarse. Su funeral se llevo a cabo en junio de ese mismo año. Su trabajo, reconocido por todo el mundo combinaba genros musicales como el blues, folk, country, funk y otoros mas agregandole letras inspiradoras, emocionales y hasta tristes. Muchos artyistas reconocidos como <a href="https://es.wikipedia.org/wiki/Skrillex">Skrillex</a>, <a href="https://es.wikipedia.org/wiki/Martin_Garrix#:~:text=Martijn%20Gerard%20Garritsen%20(%2Fg%C3%A6%C9%B9%C9%AAks%2F,fundador%20del%20sello%20STMPD%20RCRDS.&text">Martin Garrix</a>, <a href="https://es.wikipedia.org/wiki/Kygo">Kygo</a>, <a href="https://es.wikipedia.org/wiki/Diplo">Diplo</a>, <a href="https://es.wikipedia.org/wiki/Cheat_Codes">Cheat codes</a>, etc, lo han llegado a citar como una fuente de inspiracion. <br>El 26 de abril, su familia lanzó una carta abierta que decía:<br><spam>Nuestro querido Tim era un buscador, un alma artística frágil que buscaba respuestas a preguntas existenciales. Un perfeccionista excesivamente exitoso que viajó y trabajó duro a un ritmo que lo llevó a un estrés extremo. Cuando dejó de salir de gira, quería encontrar un equilibrio en la vida para poder ser feliz y hacer lo que más le gustaba: la música. Realmente luchó con pensamientos sobre significado, vida, felicidad. Ahora ya no podía continuar. Quería encontrar la paz. Tim no estaba hecho para la máquina de negocios en la que se encontraba; Era un tipo sensible que amaba a sus admiradores pero evitaba los reflectores. Tim, siempre serás amado y tristemente extrañado. La persona que eras y tu música mantendrán viva tu memoria. Te amamos, la familia.</spam></p>
+            </div>
+            <a href="https://es.wikipedia.org/wiki/Avicii"><img id="muerte-img" src="https://i.ytimg.com/vi/5ULevEfBOwE/maxresdefault.jpg"></a>
+            <p id="puto">puto el que lea</p>
+            </div>
+            </seccion>     
+        </body>
+    </html>
